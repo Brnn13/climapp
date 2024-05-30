@@ -2,17 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // <uniquifier>: Use a unique and descriptive class name
-    // <weight>: Use a value from 300 to 800
-
-    .open-sans<opensansfont> {
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" 100;
-    }
 }
 
 body {
@@ -75,7 +64,32 @@ body {
     text-transform: capitalize;
 }
 
+.alerta {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
 .umidade {
     color: #ffffff;
     margin-top: 20px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box5 {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box6 {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
